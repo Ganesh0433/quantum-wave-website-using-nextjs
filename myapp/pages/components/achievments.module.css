@@ -1,0 +1,44 @@
+#achievments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width: 100%;
+    background-color:rgb(24, 30, 48);
+}
+#achievments div{
+    margin-left: 20px;
+    margin-top: -23px;
+    height:70px;
+    width:350px;
+}
+#achievments div h3{
+    text-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    margin-top: -53px;
+ 
+}
+#achievments h1{
+    color: rgb(24, 66, 182);
+    font-size: 30px;
+  
+
+}
+
+#fachieve{
+    margin-left:50px ;
+
+}
+#seachieve{
+    margin-left:52px ;
+
+}
+#thachieve{
+    margin-left:70px ;
+
+}
+#foachieve{
+    margin-left:38px ;
+
+}

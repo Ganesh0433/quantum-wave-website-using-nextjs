@@ -1,0 +1,145 @@
+
+
+
+
+
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+
+
+
+}
+#image img{
+    position: relative;
+    width:100%;
+ 
+  
+   
+}
+#over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 21, 34,0.6); 
+}
+#over #text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 152px;
+    
+}
+#over #text #imagetexthead{
+    width: 69%;
+    margin-top: -68px;
+    text-align: center;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+}
+/* #over #text #imagetexthead h1{
+    transform: translateX(50%);
+} */
+#over #text #imagetexthead h1{
+    animation: moveRightToLeft 0.9s  linear;
+}
+#over #text #imagetextpara{
+    margin-top: -33px;
+    width:50%;
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 20px;
+    color:white;
+}
+
+@keyframes moveRightToLeft {
+    0% { transform: translateX(80%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes moveDownUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#over #text #imagetextpara p {
+    animation: moveDownUp 1s ease-out;
+    transition: transform 0.3s ease-out; 
+}
+/* @keyframes move{
+    0% { transform: translateX(80%); }
+    100% { transform: translateX(0%); }
+}  */
+#slider{
+    animation: move 3s  linear ;
+}
+#image h2{
+    color:rgb(38, 212, 140);
+    font-size: 23px;
+}
+@keyframes moveDownUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#imagetext {
+    animation: moveDownUp 1s ease-out; 
+    transition: transform 0.3s ease-out;
+}
+#imagebuttons button{
+
+    margin-top:50px ;
+    color: white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:  rgb(25, 31, 36);
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#imagebuttons{
+    display: flex;
+    flex-direction: row;
+}
+#imagebuttons h1{
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    background-color:rgb(25, 31, 36) ;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:170px;
+
+}
+/* #imagehead{
+    position: absolute;
+    left:43%;
+    top:20%;
+
+} */

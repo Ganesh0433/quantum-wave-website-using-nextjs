@@ -1,0 +1,80 @@
+
+
+
+#about{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+#aboutimage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#aboutimage #over{
+    height: 50vh;
+    width: 100%;
+    background-image: url('carousel2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 31%;
+}
+@keyframes moveDownUp {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#overhead h1 {
+    animation: moveDownUp 1s ease-out;
+    transition: transform 0.3s ease-out; 
+}
+#aboutimage #over #overcolor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(10, 21, 34,0.6);
+    z-index: 3;
+
+}
+#aboutimage #over #overcolor h1{
+    color: white;
+    font-weight: bold;
+    font-size: 77px;
+}
+#overlinks{
+    display: flex;
+    flex-direction: row;
+}
+ #overlinks a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    margin-top: -21px;
+    margin-left: 30px;
+    font-size: 17px;
+
+
+}
+#overlinks h3{
+    margin-left: 13px;
+    margin-right: -19px;
+    margin-top: -24px;
+    color: white;
+    font-size: 20px;
+}

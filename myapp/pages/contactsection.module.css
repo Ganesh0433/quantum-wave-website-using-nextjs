@@ -1,0 +1,124 @@
+#contactsection{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+#contactelements{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+#comcontact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(211, 242, 234);
+}
+.commoncomcontact{
+  
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 391px;
+    height: 12vh;
+    background-color: white;
+}
+#icon{
+    margin-top: 5px;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(24, 30, 48);
+}
+
+#icon img{
+    height: 20px;
+    width: 20px;
+}
+.commoncomcontact h3{
+    color: rgb(40, 40, 162);
+}
+.commoncomcontact h3 {
+    margin-top: 19px;
+    margin-left: 22px;
+    font-size: 25px;
+}
+.commoncomcontact h4{
+    margin-top: -26px;
+    margin-left: 22px;
+    font-size: 19px;
+
+}
+#location{
+    width: 544px;
+    height: 492px;
+    border-radius: 10px;
+    border:40px solid rgb(24, 30, 48);
+    background-color: rgb(24, 30, 48);
+}
+#comlocdet{
+    margin-top:  -220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#location iframe{
+    width: 100%;
+    height: 100%;
+}
+#details{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 544px;
+    height: 492px;
+    border:40px solid rgb(24, 30, 48);
+    background-color: rgb(24, 30, 48);
+
+}
+#details input{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#name{
+    width: 93%;
+    height: 45px;
+}
+#textemail{
+    width: 93%;
+    height: 45px;
+}
+#project{
+    width: 93%;
+    height: 45px;
+}
+#message{
+    width: 93%;
+    height: 156px;
+}
+#details button{
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    margin-left: -350px;
+    height: 48px;
+    width: fit-content;
+    color: white;
+}

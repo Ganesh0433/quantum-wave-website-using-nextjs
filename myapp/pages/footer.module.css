@@ -1,0 +1,228 @@
+#footer{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:370px;
+    width: 100%;
+    background-color:black ;
+}
+#verticalfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#comsummary{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+#shortlinks{
+    display: flex;
+    flex-direction: column;
+}
+#helplinks{
+    display: flex;
+    flex-direction: column;
+}
+#contactus{
+    display: flex;
+    flex-direction: column;
+}
+#summaryheading{
+    color:white
+}ss
+#summaryheading h1{
+    font-size: 30px;
+}
+#summaryheading span{
+    color:rgb(38, 212, 140);
+}
+#summarypara{
+    color: white;
+}
+#summarylogo{
+    display: flex;
+    flex-direction: row;
+
+}
+#insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 4;
+    
+}
+#linkdin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 9px;
+    z-index: 4;
+
+}
+#insta img{
+    height: 20px;
+    width: 20px;
+}
+#linkdin img{
+    height: 20px;
+    width: 20px;
+}
+#shortheading{
+    color: rgb(38, 212, 140);
+}
+#shortlink{
+    display: flex;
+    flex-direction: column;
+}
+#shortlink a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+#helplink{
+    display: flex;
+    flex-direction: column;
+
+}
+#helplinks h1{
+    color: rgb(38, 212, 140);
+}
+#helplinks #helplink a{
+    text-decoration: none;
+    margin-bottom: 7px;
+    color: white;
+
+}
+#contactheading h1{
+    color:  rgb(38, 212, 140);
+}
+#line{
+    height: 1px;
+    width: 200px;
+    background-color: rgb(43, 38, 182);
+}
+#phoneno{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#email{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#location{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#contacts img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+#location div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#phoneno div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#email div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#helplink span{
+    color:rgb(38, 212, 140);
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+#helplink div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#shortlink span{
+    color:rgb(38, 212, 140);
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+#shortlink div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#horizontal{
+    position: absolute;
+    top: 78%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#holine{
+    height: 1px;
+    width: 91%;
+    background-color: white;
+
+}
+#name{
+    width: inherit;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#leftname{
+    color: white;
+    margin-top: -38px;
+  
+   
+}
+#leftname span{
+    color: rgb(42, 224, 29);
+}
+#rightname{
+    color: white;
+    margin-top: -15px;
+ 
+}
+    
+#rightname h3{
+    text-wrap: no wrap;
+    
+
+}
+
+#leftname h3{
+    text-wrap: no wrap;
+
+}
+#rightname span{
+    color:rgb(4, 149, 178);
+}

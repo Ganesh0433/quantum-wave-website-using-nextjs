@@ -1,0 +1,232 @@
+
+#navbar{
+    height:48px;
+    width:100%;
+    margin-top: 0;
+    background-color:black;
+    color: grey;
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+ 
+}
+#navbar #info{
+  
+    top: 15px;
+    position: absolute;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: spa;
+    z-index: 4;
+}
+#email{
+    margin-left: 27px;;
+}
+#loc{
+    margin-right: 20px;
+}
+#email img{
+    
+    position: absolute;
+    top:0px;
+
+    margin-left: -23px;
+}
+#loc img{
+    position: absolute;
+    top:-1px;
+
+    margin-left: -21px;
+}
+#insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 4;
+    
+}
+#linkdin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 9px;
+    z-index: 4;
+
+}
+
+#navbar #media{
+    position:absolute;
+    top: 12px;
+    right: 33px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#navbar img {
+    height:20px;
+    width:20px;
+    
+}
+
+#movtextleft{
+    position: relative;
+    color:rgb(62, 197, 14);
+    top:4px;
+    left:0%;
+    height:40px;
+    width:471px;
+    background-color:black;
+    z-index: 3;
+
+    
+   
+}
+#movtextright{
+    position: absolute;
+    color:rgb(62, 197, 14);
+    top:9px;
+    right:9px;
+    height:40px;
+    width:32%;
+    background-color:black;
+    z-index: 3;  
+}
+#textmov {
+    
+    position: absolute;
+    text-wrap: nowrap;
+    color:rgb(62, 197, 14);
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: scroll 4s linear infinite;
+    
+}
+
+
+@keyframes scroll { /* Add this block */
+    0% { transform: translateX(30%); }
+    100% { transform: translateX(380%); }
+  }
+
+@media only screen and (max-width: 1026px) {
+    #navbar {
+        display: none;
+    }
+}
+#menubar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height:60px;
+    width: 100%;
+    background-color:rgb(24, 30, 48);
+    margin-top: 0;
+}
+#menubar #logo h1{
+    position: absolute;
+    top:2px;
+    left:94px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+#menubar #logo h1 span{
+   
+    color: rgb(42, 224, 29);
+}
+#menu{
+    position: absolute;
+    top: 32%;
+    left:37%;
+ 
+   
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+#phonedetails{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top:11%;
+    right:23%;
+}
+#verticalline{
+    position: absolute;
+    left:184px;
+    top:3px;
+    height:45px;
+    width:1px;
+    background-color: white;
+
+}
+#phonedetails #call{
+  
+    text-wrap: nowrap;
+    position: absolute;
+    top:-43px;
+    left:14px;
+    margin-top: 32px;
+    color: rgb(25, 31, 36);
+}
+
+#search{
+    position: absolute;
+    top:1px;
+    left:197px;
+}
+#phone{
+    position: absolute;
+    top:6px;
+    left:-52px;
+
+}
+#call p{
+ 
+    color:grey;
+}
+#call #phonenumber{
+    margin-top: -12px;
+    color:rgb(42, 224, 29);
+}
+@keyframes tilt-shaking {
+    0% {  transform: scale(0.7);}
+    25% { transform: rotate(5deg);  }
+    50% { transform: rotate(0deg);  transform: scale(0.8);}
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); transform: scale(0.9); }
+  }
+  
+#phone {
+    animation: tilt-shaking 0.8s infinite;
+  }
+#phone img{
+    height:40px;
+    width:40px;
+
+}
+#phone #message{
+    position: absolute;
+    height:25px;
+    width:25px;
+    left:25px;
+    top:-8px;
+}

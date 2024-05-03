@@ -1,0 +1,73 @@
+#servicesection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#headsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+
+}
+#headservice h3{
+    margin-top: 42px;
+     color: rgb(24, 66, 182);
+     font-size: 23px;
+}
+
+#sermotive{
+    margin-top: -57px;
+    width: 55%;
+    color: black;
+    font-size: 28px;
+    text-wrap: wrap;
+    text-align: center;
+}
+#outerservice{
+    display: flex;
+    align-items: center;
+    justify-content :center ;
+}
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 76px;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height:140vh;
+  }
+  #cloneservice #check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+  }
+  #cloneservice {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 65%;
+    background-color: white;
+    margin-left: 19%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+#cloneservice img{
+    height: 90px;
+    width: 90px;
+}
+#contentbutton button{
+    height: 50px;
+    width: 180px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
